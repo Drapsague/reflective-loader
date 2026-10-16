@@ -1,0 +1,25 @@
+
+
+## Dll linux
+libgcc_s_dw2-1.dll
+
+## env python
+
+## DLLs and .EXE
+freedent/*.dll
+freedent/*.exe
+*.dll
+*.exe
+
+
+## Clang config
+.clang-format
+
+
+## Python
+env/
+script/__pycache__
+
+
+## Trash Files
+*.txt

@@ -1,0 +1,36 @@
+BasedOnStyle: LLVM
+IndentWidth: 8
+TabWidth: 8
+UseTab: Never
+
+# --- Formatting rules ---
+ColumnLimit: 100
+BreakBeforeBraces: Attach          # same-line braces
+AllowShortIfStatementsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: InlineOnly
+AllowShortLoopsOnASingleLine: false
+SpaceBeforeParens: ControlStatements
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+SpacesBeforeTrailingComments: 1
+AlignTrailingComments: true
+ReflowComments: true
+KeepEmptyLinesAtTheStartOfBlocks: false
+IndentCaseLabels: true
+DerivePointerAlignment: false
+PointerAlignment: Left
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+AlignOperands: true
+AllowAllArgumentsOnNextLine: false
+
+# --- Includes & namespaces ---
+SortIncludes: true
+IncludeBlocks: Regroup
+NamespaceIndentation: All
+
+# --- Comments ---
+CommentPragmas: '^ IWYU pragma:'
+BreakBeforeBinaryOperators: None
+AllowAllParametersOfDeclarationOnNextLine: false
+
